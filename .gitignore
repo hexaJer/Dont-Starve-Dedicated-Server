@@ -1,7 +1,19 @@
 *
 !.gitignore
 !init.d/
+!init.d/**
 !Klei/
-!Steam/steamapps/DoNotStarveTogetherDedicatedServer/mods/dedicated_server_mods_setup.lua
-run_dedicated_servers.sh
+!Klei/**
+cluster_token.txt
+*_log.txt
+*_log_*.txt
+*.log
+save/
+backup/
 
+!Steam
+!Steam/steamapps
+!Steam/steamapps/DoNotStarveTogetherDedicatedServer
+!Steam/steamapps/DoNotStarveTogetherDedicatedServer/mods
+!Steam/steamapps/DoNotStarveTogetherDedicatedServer/mods/dedicated_server_mods_setup.lua
+!run_dedicated_servers.sh
