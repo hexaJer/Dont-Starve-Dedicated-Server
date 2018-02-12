@@ -12,3 +12,4 @@ save/
 backup/
 !dedicated_server_mods_setup.lua
 !run_dedicated_servers.sh
+!clean_dedicated_servers.sh
