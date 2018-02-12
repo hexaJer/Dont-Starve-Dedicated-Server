@@ -5,6 +5,7 @@ install_dir="$HOME/Steam/steamapps/DoNotStarveTogetherDedicatedServer"
 persistent_storage_root="$HOME/Klei"
 cluster_name="MyDediServer"
 dontstarve_dir="$persistent_storage_root/DoNotStarveTogether"
+dedicated_server_mods_setup="dedicated_server_mods_setup.lua"
 
 function fail()
 {
@@ -28,7 +29,8 @@ check_for_file "$dontstarve_dir/$cluster_name/Master/server.ini"
 check_for_file "$dontstarve_dir/$cluster_name/Caves/server.ini"
 
 ./steamcmd.sh +force_install_dir "$install_dir" +login anonymous +app_update 343050 +quit
-# ./steamcmd.sh +force_install_dir "$install_dir" +login anonymous +app_update 343050 validate +quit
+
+cp -fv "$HOME/dedicated_server_mods_setup.lua" "$install_dir/mods/"
 
 check_for_file "$install_dir/bin"
 

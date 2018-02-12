@@ -15,5 +15,10 @@
 	ServerModSetup("603397958") --Woo, Maxwell's Owl
 	ServerModSetup("436336891") --Mabel Pines (Updated And Working)
 	ServerModSetup("372911249") --Dipper Pines (FULLY UPDATED)
-	ServerModSetup("360770741") --Increased Max Players
+	ServerModSetup("912647660") --Miami Rick
+	--ServerModSetup("360770741") --Increased Max Players
 	ServerModSetup("758532836") --Global Pause
+	ServerModSetup("396026892") --Large Chest
+	ServerModSetup("462434129") --Restart
+	ServerModSetup("375850593") --Extra Equip Slots
+	
