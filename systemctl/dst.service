@@ -1,0 +1,23 @@
+[Unit]
+Description=Don't Starve Together Dedicated Server
+Wants=network-online.target
+After=network.target network-online.target
+
+[Service]
+#Type=forking
+User=dst
+Group=steam
+#KillMode=none
+ExecStart=/srv/dst/dstserver/run_server.sh
+GuessMainPID=no
+WorkingDirectory=/srv/dst/dstserver
+Restart=on-failure
+RestartSec=30
+StartLimitInterval=400
+StartLimitBurst=3
+TimeoutStartSec=30
+TimeoutStopSec=30
+
+[Install]
+WantedBy=multi-user.target
+

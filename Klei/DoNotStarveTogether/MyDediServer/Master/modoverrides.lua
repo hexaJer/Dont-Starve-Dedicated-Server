@@ -17,6 +17,9 @@ return {
   --Extra Equip Slots
   ["workshop-375850593"]={ configuration_options={  }, enabled=true }, 
   
+  --Large Chest
+  --["workshop-396026892"]={ configuration_options={  }, enabled=true },
+
   --Backpack and Amulet Slots
   --["workshop-277517714"]={ configuration_options={  }, enabled=true }, 
 
